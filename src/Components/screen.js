@@ -10,7 +10,7 @@ export default function Screen() {
 
     return (
 
-        <Container className="border border-primary rounded-pill">
+        <Container className="border border-primary rounded-pill" id="display">
             <Row>
                 
                 <Col sm={12}>

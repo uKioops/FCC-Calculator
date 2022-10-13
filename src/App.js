@@ -1,6 +1,7 @@
 import './App.css';
 import Screen from './Components/screen';
 import { Container, Row, Col } from 'react-bootstrap';
+import Pads from './Components/pads';
 
 function App() {
   return (
@@ -13,6 +14,11 @@ function App() {
       </Row>
       <Row>
         <Col><Screen /></Col>
+      </Row>
+      <Row>
+        <Col>
+          <Pads />
+        </Col>
       </Row>
     </Container>
     
